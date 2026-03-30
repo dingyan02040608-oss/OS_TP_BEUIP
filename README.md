@@ -21,7 +21,7 @@ Le projet valide les trois étapes du TP :
 2.  **Protocole BEUIP v1 (Étape 2)** : 
     * Diffusion de présence (Code 1) et réponse automatique (Code 2).
     * Maintenance d'une table de 255 utilisateurs maximum.
-3.  **Intégration Shell & Automatisation (Étape 3 - Bonus)** :
+3.  **Intégration Shell & Automatisation (Étape 3)** :
     * Commande `beuip start <pseudo>` : Lance le serveur en arrière-plan.
     * Commande `beuip stop` : Envoie un signal `SIGUSR1` pour déclencher un broadcast de départ (Code 0) avant de fermer le service.
     * Commande `mess list` : Affiche les utilisateurs connectés.
